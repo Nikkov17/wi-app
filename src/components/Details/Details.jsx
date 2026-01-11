@@ -1,0 +1,56 @@
+import { Box, Typography } from '@mui/material';
+import { COLOR, FONT, CSS_VALUES } from '../../constants';
+import AirportShuttleIcon from '@mui/icons-material/AirportShuttle';
+import LocalFloristIcon from '@mui/icons-material/LocalFlorist';
+import NightlightIcon from '@mui/icons-material/Nightlight';
+import CardGiftcardIcon from '@mui/icons-material/CardGiftcard';
+import { DetailBlock } from './DetailBlock';
+
+export const Details = () => {
+  return (
+    <Box
+      sx={{
+        marginTop: `${CSS_VALUES.marginBetweenSections}px`,
+        marginLeft: `${CSS_VALUES.sectionSideMargin}px`,
+        marginRight: `${CSS_VALUES.sectionSideMargin}px`,
+        maxWidth: `${CSS_VALUES.sectionMaxWidth}px`,
+      }}
+    >
+      <Typography
+        sx={{
+          fontSize: '48px',
+          fontFamily: FONT.common.title,
+          lineHeight: '50px',
+        }}
+        color={COLOR.base}
+      >
+        ДЕТАЛИ
+      </Typography>
+      <DetailBlock
+        title="Трансфер"
+        description="Дорогие гости, для вашего комфорта будет организован трансфер. Если он вам необходим,
+          пожалуйста, укажите это в анкете ниже."
+        IconProp={AirportShuttleIcon}
+      />
+      <DetailBlock
+        title="Подарки"
+        description="Ваши пожелания в конвертах будут лучшими подарками, которые помогут исполнить наши мечты!"
+        IconProp={CardGiftcardIcon}
+      />
+      <DetailBlock
+        title="Цветы"
+        description="Мы знаем, что на свадьбе принято дарить цветы, но, к сожалению, мы не успеем в полной мере
+          насладиться их красотой. Вместо них будем рады бутылочке вашего любимого алкогольного
+          напитка для нашего семейного бара."
+        IconProp={LocalFloristIcon}
+      />
+      <DetailBlock
+        title="Ночь"
+        description="Мы приглашаем вас разделить с нами продолжение мероприятия сменив парадный формат
+          мероприятия на более расслабленный. В нашем распоряжении будут зал для отдыха, сауны и
+          бассейн в помещении."
+        IconProp={NightlightIcon}
+      />
+    </Box>
+  );
+};
