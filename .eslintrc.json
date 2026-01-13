@@ -6,6 +6,8 @@
     "react/react-in-jsx-scope": "off",
     "react/jsx-uses-react": "off",
 
-    "no-console": ["warn", { "allow": ["warn", "error"] }]
+    "no-console": ["warn", { "allow": ["warn", "error"] }],
+
+    "linebreak-style": ["error", "unix"]
   }
 }
