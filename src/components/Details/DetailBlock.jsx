@@ -11,7 +11,7 @@ export const DetailBlock = ({ title, description, IconProp }) => {
         alignItems: 'center',
         marginTop: '24px',
         backgroundColor: COLOR.light,
-        p: '8px',
+        p: '16px',
         borderRadius: '20px',
       }}
     >
@@ -33,7 +33,7 @@ export const DetailBlock = ({ title, description, IconProp }) => {
         />
         <Typography
           sx={{
-            fontSize: '24px',
+            fontSize: '28px',
             fontFamily: FONT.ru.cursive,
             lineHeight: '50px',
             marginLeft: '8px',

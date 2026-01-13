@@ -10,47 +10,58 @@ export const Details = () => {
   return (
     <Box
       sx={{
-        marginTop: `${CSS_VALUES.marginBetweenSections}px`,
-        marginLeft: `${CSS_VALUES.sectionSideMargin}px`,
-        marginRight: `${CSS_VALUES.sectionSideMargin}px`,
-        maxWidth: `${CSS_VALUES.sectionMaxWidth}px`,
+        display: 'flex',
+        justifyContent: 'center',
+        width: '100%',
+        boxSizing: 'border-box',
+        padding: `${CSS_VALUES.sectionIndent * 2}px ${CSS_VALUES.sectionIndent}px`,
       }}
     >
-      <Typography
+      <Box
         sx={{
-          fontSize: '48px',
-          fontFamily: FONT.common.title,
-          lineHeight: '50px',
+          display: 'flex',
+          flexDirection: 'column',
+          alignItems: 'center',
+          justifyContent: 'center',
+          maxWidth: `${CSS_VALUES.sectionMaxWidth}px`,
         }}
-        color={COLOR.base}
       >
-        ДЕТАЛИ
-      </Typography>
-      <DetailBlock
-        title="Трансфер"
-        description="Дорогие гости, для вашего комфорта будет организован трансфер. Если он вам необходим,
+        <Typography
+          sx={{
+            fontSize: '48px',
+            fontFamily: FONT.common.title,
+            lineHeight: '50px',
+          }}
+          color={COLOR.base}
+        >
+          ДЕТАЛИ
+        </Typography>
+        <DetailBlock
+          title="Трансфер"
+          description="Дорогие гости, для вашего комфорта будет организован трансфер. Если он вам необходим,
           пожалуйста, укажите это в анкете ниже."
-        IconProp={AirportShuttleIcon}
-      />
-      <DetailBlock
-        title="Подарки"
-        description="Ваши пожелания в конвертах будут лучшими подарками, которые помогут исполнить наши мечты!"
-        IconProp={CardGiftcardIcon}
-      />
-      <DetailBlock
-        title="Цветы"
-        description="Мы знаем, что на свадьбе принято дарить цветы, но, к сожалению, мы не успеем в полной мере
+          IconProp={AirportShuttleIcon}
+        />
+        <DetailBlock
+          title="Подарки"
+          description="Ваши пожелания в конвертах будут лучшими подарками, которые помогут исполнить наши мечты!"
+          IconProp={CardGiftcardIcon}
+        />
+        <DetailBlock
+          title="Цветы"
+          description="Мы знаем, что на свадьбе принято дарить цветы, но, к сожалению, мы не успеем в полной мере
           насладиться их красотой. Вместо них будем рады бутылочке вашего любимого алкогольного
           напитка для нашего семейного бара."
-        IconProp={LocalFloristIcon}
-      />
-      <DetailBlock
-        title="Ночь"
-        description="Мы приглашаем вас разделить с нами продолжение мероприятия сменив парадный формат
+          IconProp={LocalFloristIcon}
+        />
+        <DetailBlock
+          title="Ночь"
+          description="Мы приглашаем вас разделить с нами продолжение мероприятия сменив парадный формат
           мероприятия на более расслабленный. В нашем распоряжении будут зал для отдыха, сауны и
           бассейн в помещении."
-        IconProp={NightlightIcon}
-      />
+          IconProp={NightlightIcon}
+        />
+      </Box>
     </Box>
   );
 };

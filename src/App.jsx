@@ -1,5 +1,6 @@
 import { Box } from '@mui/material';
 import { Heading } from './components/Heading/Heading';
+import { Calendar } from './components/Calendar/Calendar';
 import { Location } from './components/Location/Location';
 import { Timing } from './components/Timing/Timing';
 import { DressCode } from './components/DressCode/DressCode';
@@ -19,6 +20,7 @@ function App() {
       }}
     >
       <Heading />
+      <Calendar />
       <Location />
       <Timing />
       <DressCode />

@@ -14,7 +14,6 @@ export const FONT = {
 };
 
 export const CSS_VALUES = {
-  sectionSideMargin: 24,
-  marginBetweenSections: 90,
-  sectionMaxWidth: 700,
+  sectionIndent: 24,
+  sectionMaxWidth: 600,
 };
