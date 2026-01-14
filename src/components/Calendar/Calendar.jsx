@@ -49,7 +49,7 @@ export const Calendar = () => {
                 minHeight: '200px',
               },
               '& .MuiPickersDay-today': {
-                border: `1px dashed  ${COLOR.base} !important`,
+                border: `1px dashed  ${COLOR.light} !important`,
               },
               '& .MuiTypography-root, & .MuiPickersDay-root': {
                 fontFamily: FONT.ru.base,
