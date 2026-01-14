@@ -6,7 +6,7 @@ export const COLOR = {
 
 export const FONT = {
   common: {
-    title: 'oswald',
+    title: 'serif',
     date: '"Story Script", sans-serif',
   },
   ru: { base: '"Montserrat Alternates", sans-serif', cursive: "'Great Vibes', cursive" },
