@@ -9,7 +9,7 @@ export const Final = () => {
         justifyContent: 'center',
         width: '100%',
         boxSizing: 'border-box',
-        padding: `${CSS_VALUES.sectionIndent * 2}px ${CSS_VALUES.sectionIndent}px`,
+        padding: `${CSS_VALUES.sectionIndent}px ${CSS_VALUES.sectionIndent}px ${CSS_VALUES.sectionIndent * 2}px`,
       }}
     >
       <Box

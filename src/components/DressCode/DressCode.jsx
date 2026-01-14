@@ -10,7 +10,6 @@ export const DressCode = () => {
         width: '100%',
         boxSizing: 'border-box',
         padding: `${CSS_VALUES.sectionIndent * 2}px ${CSS_VALUES.sectionIndent}px`,
-        backgroundColor: COLOR.light,
       }}
     >
       <Box
@@ -28,7 +27,7 @@ export const DressCode = () => {
             fontFamily: FONT.common.title,
             lineHeight: '50px',
           }}
-          color={COLOR.milkWhite}
+          color={COLOR.base}
         >
           ДРЕСС КОД
         </Typography>
@@ -39,7 +38,7 @@ export const DressCode = () => {
             fontWeight: 500,
             marginTop: '24px',
           }}
-          color={COLOR.milkWhite}
+          color={COLOR.base}
         >
           Чтобы сохранить особую атмосферу нашего праздника, будем признательны, если вы
           воздержитесь от ярких и кричащих цветов в одежде и выберете более спокойные и элегантные

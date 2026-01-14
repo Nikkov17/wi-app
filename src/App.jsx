@@ -28,8 +28,8 @@ function App() {
       <Details />
       <Form />
       <Contacts />
-      <Countdown />
       <Final />
+      <Countdown />
     </Box>
   );
 }

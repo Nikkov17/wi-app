@@ -16,7 +16,6 @@ export const Calendar = () => {
         width: '100%',
         boxSizing: 'border-box',
         padding: `${CSS_VALUES.sectionIndent}px`,
-        backgroundColor: COLOR.light,
       }}
     >
       <Box
@@ -35,7 +34,7 @@ export const Calendar = () => {
             fontStyle: 'normal',
             fontSize: '16px',
           }}
-          color={COLOR.milkWhite}
+          color={COLOR.base}
         >
           Июнь 2026
         </Typography>
@@ -50,11 +49,11 @@ export const Calendar = () => {
                 minHeight: '200px',
               },
               '& .MuiPickersDay-today': {
-                border: `1px dashed  ${COLOR.milkWhite} !important`,
+                border: `1px dashed  ${COLOR.base} !important`,
               },
               '& .MuiTypography-root, & .MuiPickersDay-root': {
                 fontFamily: FONT.ru.base,
-                color: COLOR.milkWhite,
+                color: COLOR.base,
                 fontWeight: 500,
               },
               '& .MuiDayCalendar-weekDayLabel': {
@@ -62,8 +61,8 @@ export const Calendar = () => {
               },
               '& .MuiPickersDay-root.Mui-selected': {
                 fontWeight: 700,
-                color: COLOR.light,
-                backgroundColor: COLOR.milkWhite,
+                color: COLOR.milkWhite,
+                backgroundColor: COLOR.light,
               },
             }}
             value={selectedDate}
