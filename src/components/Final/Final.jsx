@@ -26,7 +26,7 @@ export const Final = () => {
             fontFamily: FONT.ru.cursive,
             fontWeight: 400,
             fontStyle: 'normal',
-            fontSize: '38px',
+            fontSize: '36px',
           }}
           color={COLOR.base}
         >

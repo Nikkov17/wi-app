@@ -29,7 +29,7 @@ export const Heading = () => {
         >
           <Typography
             variant="h1"
-            sx={{ fontFamily: FONT.common.title, fontWeight: 500, fontSize: '72px' }}
+            sx={{ fontFamily: FONT.common.title, fontWeight: 500, fontSize: '68px' }}
             color={COLOR.base}
           >
             WEDDING
