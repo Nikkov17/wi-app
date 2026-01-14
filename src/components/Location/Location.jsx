@@ -1,7 +1,7 @@
 import Location1 from '../../assets/location1.jpeg';
 import Location2 from '../../assets/location2.webp';
 import { Box, Typography, Link, Button } from '@mui/material';
-import { COLOR, FONT, CSS_VALUES } from '../../constants';
+import { COLOR, FONT, FONT_SIZE, CSS_VALUES } from '../../constants';
 
 export const Location = () => {
   return (
@@ -25,7 +25,7 @@ export const Location = () => {
       >
         <Typography
           sx={{
-            fontSize: '48px',
+            fontSize: `${FONT_SIZE.sectionTitle}px`,
             fontFamily: FONT.common.title,
             lineHeight: '50px',
           }}

@@ -1,6 +1,6 @@
 import PhoneIcon from '@mui/icons-material/Phone';
 import { Box, Link, Typography } from '@mui/material';
-import { COLOR, FONT, CSS_VALUES } from '../../constants';
+import { COLOR, FONT, FONT_SIZE, CSS_VALUES } from '../../constants';
 
 export const Contacts = () => {
   return (
@@ -24,7 +24,7 @@ export const Contacts = () => {
       >
         <Typography
           sx={{
-            fontSize: '48px',
+            fontSize: `${FONT_SIZE.sectionTitle}px`,
             fontFamily: FONT.common.title,
             lineHeight: '50px',
           }}

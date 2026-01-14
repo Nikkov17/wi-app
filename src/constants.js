@@ -13,6 +13,11 @@ export const FONT = {
   en: { cursive: "'Monsieur La Doulaise', cursive" },
 };
 
+export const FONT_SIZE = {
+  appTitle: 62,
+  sectionTitle: 44,
+};
+
 export const CSS_VALUES = {
   sectionIndent: 24,
   sectionMaxWidth: 600,

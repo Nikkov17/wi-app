@@ -1,5 +1,5 @@
 import { Box, Typography } from '@mui/material';
-import { COLOR, FONT, CSS_VALUES } from '../../constants';
+import { COLOR, FONT, FONT_SIZE, CSS_VALUES } from '../../constants';
 import AirportShuttleIcon from '@mui/icons-material/AirportShuttle';
 import LocalFloristIcon from '@mui/icons-material/LocalFlorist';
 import NightlightIcon from '@mui/icons-material/Nightlight';
@@ -28,7 +28,7 @@ export const Details = () => {
       >
         <Typography
           sx={{
-            fontSize: '48px',
+            fontSize: `${FONT_SIZE.sectionTitle}px`,
             fontFamily: FONT.common.title,
             lineHeight: '50px',
           }}

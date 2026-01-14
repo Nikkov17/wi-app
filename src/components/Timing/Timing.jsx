@@ -3,7 +3,7 @@ import CakeIcon from '@mui/icons-material/Cake';
 import RestaurantIcon from '@mui/icons-material/Restaurant';
 import WeddingRing from '../../assets/wedding-ring.png';
 import { Box, Typography } from '@mui/material';
-import { COLOR, FONT, CSS_VALUES } from '../../constants';
+import { COLOR, FONT, FONT_SIZE, CSS_VALUES } from '../../constants';
 
 export const Timing = () => {
   return (
@@ -27,7 +27,7 @@ export const Timing = () => {
       >
         <Typography
           sx={{
-            fontSize: '48px',
+            fontSize: `${FONT_SIZE.sectionTitle}px`,
             fontFamily: FONT.common.title,
             lineHeight: '50px',
           }}
