@@ -3,10 +3,10 @@ import { LocalizationProvider, StaticDatePicker } from '@mui/x-date-pickers';
 import { AdapterDateFns } from '@mui/x-date-pickers/AdapterDateFns';
 import { ru } from 'date-fns/locale';
 import { Box, Typography } from '@mui/material';
-import { COLOR, FONT, CSS_VALUES } from '../../constants';
+import { COLOR, FONT, CSS_VALUES, EVENT_DATE } from '../../constants';
 
 export const Calendar = () => {
-  const [selectedDate] = useState(new Date('2026-06-25'));
+  const [selectedDate] = useState(EVENT_DATE);
 
   return (
     <Box

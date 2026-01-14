@@ -8,6 +8,7 @@ import { Details } from './components/Details/Details';
 import { Form } from './components/Form/Form';
 import { Contacts } from './components/Contacts/Contacts';
 import { Final } from './components/Final/Final';
+import { Countdown } from './components/Countdown/Countdown';
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
       <Details />
       <Form />
       <Contacts />
+      <Countdown />
       <Final />
     </Box>
   );

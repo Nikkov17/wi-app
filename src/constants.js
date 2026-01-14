@@ -17,3 +17,5 @@ export const CSS_VALUES = {
   sectionIndent: 24,
   sectionMaxWidth: 600,
 };
+
+export const EVENT_DATE = new Date(2026, 5, 25, 15, 30, 0);
