@@ -44,7 +44,7 @@ export const Contacts = () => {
           По всем вопросам вы можете обращаться к нашему свадебному организатору.
         </Typography>
         <Link
-          href={`tel:+375445600408`}
+          href={`tel:+375292729528`}
           sx={{
             display: 'flex',
             alignItems: 'center',
@@ -75,7 +75,7 @@ export const Contacts = () => {
             }}
             color={COLOR.base}
           >
-            +375 44 5600408
+            +375 29 2729528
           </Typography>
         </Link>
         <Typography
