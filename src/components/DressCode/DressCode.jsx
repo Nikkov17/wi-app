@@ -44,6 +44,70 @@ export const DressCode = () => {
           воздержитесь от ярких и кричащих цветов в одежде и выберете более спокойные и элегантные
           наряды. Благодарим за понимание и поддержку!
         </Typography>
+        <Box display={'flex'} gap="12px" mt={'24px'} flexDirection={'column'}>
+          <Box display={'flex'} justifyContent={'center'} gap="12px">
+            <Box
+              width={'55px'}
+              height={'55px'}
+              borderRadius={'50%'}
+              sx={{
+                border: '0.1px solid #0000000f',
+                boxSizing: 'border-box',
+                backgroundColor: '#e8ded4',
+              }}
+            ></Box>
+            <Box
+              width={'55px'}
+              height={'55px'}
+              borderRadius={'50%'}
+              sx={{ backgroundColor: '#e4baa3' }}
+            ></Box>
+            <Box
+              width={'55px'}
+              height={'55px'}
+              borderRadius={'50%'}
+              sx={{ backgroundColor: '#e2cbbd' }}
+            ></Box>
+            <Box
+              width={'55px'}
+              height={'55px'}
+              borderRadius={'50%'}
+              sx={{ backgroundColor: '#ccc2c1' }}
+            ></Box>
+            <Box
+              width={'55px'}
+              height={'55px'}
+              borderRadius={'50%'}
+              sx={{ backgroundColor: '#a68b80' }}
+            ></Box>
+          </Box>
+          <Box display={'flex'} justifyContent={'center'} gap="12px">
+            <Box
+              width={'55px'}
+              height={'55px'}
+              borderRadius={'50%'}
+              sx={{ backgroundColor: '#c8aca0' }}
+            ></Box>
+            <Box
+              width={'55px'}
+              height={'55px'}
+              borderRadius={'50%'}
+              sx={{ backgroundColor: '#d1937c' }}
+            ></Box>
+            <Box
+              width={'55px'}
+              height={'55px'}
+              borderRadius={'50%'}
+              sx={{ backgroundColor: '#999b85' }}
+            ></Box>
+            <Box
+              width={'55px'}
+              height={'55px'}
+              borderRadius={'50%'}
+              sx={{ backgroundColor: '#8b9187' }}
+            ></Box>
+          </Box>
+        </Box>
       </Box>
     </Box>
   );

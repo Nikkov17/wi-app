@@ -75,7 +75,7 @@ export const Timing = () => {
               }}
               color={COLOR.base}
             >
-              15:30
+              15:00
               <br />
               Сбор гостей
             </Typography>
@@ -101,7 +101,7 @@ export const Timing = () => {
               }}
               color={COLOR.base}
             >
-              16:00
+              16:15
               <br />
               Церемония бракосочетания
             </Typography>
@@ -147,7 +147,7 @@ export const Timing = () => {
               }}
               color={COLOR.base}
             >
-              20:00
+              22:00
               <br />
               Торт
             </Typography>
