@@ -2,7 +2,6 @@ import { Box, Typography } from '@mui/material';
 import { COLOR, FONT, FONT_SIZE, CSS_VALUES } from '../../constants';
 import AirportShuttleIcon from '@mui/icons-material/AirportShuttle';
 import LocalFloristIcon from '@mui/icons-material/LocalFlorist';
-import NightlightIcon from '@mui/icons-material/Nightlight';
 import CardGiftcardIcon from '@mui/icons-material/CardGiftcard';
 import { DetailBlock } from './DetailBlock';
 
