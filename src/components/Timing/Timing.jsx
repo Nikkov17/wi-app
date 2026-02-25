@@ -101,7 +101,7 @@ export const Timing = () => {
               }}
               color={COLOR.base}
             >
-              16:15
+              16:00
               <br />
               Церемония бракосочетания
             </Typography>
