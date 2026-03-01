@@ -126,6 +126,18 @@ export const DressCode = () => {
                 ></Box>
               </Box>
             </Box>
+            <Typography
+              sx={{
+                fontSize: '12px',
+                fontFamily: FONT.ru.base,
+                fontWeight: 500,
+                marginTop: '12px',
+              }}
+              color={COLOR.base}
+            >
+              *Будем очень признательны, если вы воздержитесь от белых нарядов, чтобы сохранить этот
+              цвет для невесты!
+            </Typography>
           </Box>
           <Box>
             <Typography
