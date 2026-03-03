@@ -1,5 +1,5 @@
 import { Box, Typography } from '@mui/material';
-import { COLOR, FONT, FONT_SIZE, CSS_VALUES } from '../../constants';
+import { COLOR, CSS_VALUES, FONT, FONT_SIZE } from '../../constants';
 
 export const DressCode = () => {
   return (
